@@ -1,0 +1,104 @@
+/* Reset dasar */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+header {
+    background: #f3f3f3;
+    color: #000000;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.bio {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio .container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bio-info {
+    flex: 2;
+    padding-left: 2rem;
+}
+
+.bio-info h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.bio-info p {
+    margin-bottom: 1rem;
+}
+
+.bio-info h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.bio-info ul {
+    list-style: none;
+}
+
+.bio-info li {
+    margin-bottom: 0.5rem;
+}
+
+.bio-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.bio-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
